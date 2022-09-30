@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+}
+
+#page1_h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-family: "Helvetica Bold";
+}
