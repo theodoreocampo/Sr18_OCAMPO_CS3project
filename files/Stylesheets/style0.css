@@ -2,8 +2,68 @@ body {
   background-color: black;
 }
 
-#header {
-  color: whitesmoke;
+.button {
+  background-color: #4CAF50; /* Green */
+  border-radius: 4px;
+  color: black;
+  padding: 8px;
   text-align: center;
-  font-family: "Helvetica Bold";
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  transition-duration: 0.1s;
 }
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+#header {
+  text-align: center; 
+  color: whitesmoke;
+  
+  font-family: "Helvetica Bold";
+
+  margin-top: 40px;
+}
+
+#p1 {
+
+  position: relative; 
+  color:white;
+  text-align: right;
+  font-family: "Helvetica Bold";
+  top: 50px;
+  
+
+  
+  text-align: left;
+
+  margin-top: 50px;
+  margin-left: 50px; 
+  margin-right: 300px;
+}
+
+.navbardiv{
+  position: relative;
+  
+  font-family: Helvetiva Bold; 
+  margin-top: 10px;
+  margin-right: 20px; 
+
+}
+
+#NaviHeader{
+  font-size: 20px;
+}
+
+#navdata{
+  color: blue;
+}
+#navdata:hover{
+  color: black; 
+}
+
