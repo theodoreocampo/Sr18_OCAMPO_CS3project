@@ -17,7 +17,7 @@ body {
 .button:hover {
   background-color: white;
   color: black;
-}
+}  
 
 
 
@@ -25,9 +25,10 @@ body {
   text-align: center; 
   color: whitesmoke;
   
-  font-family: "Helvetica Bold";
+  font-family: "Candara";
 
   margin-top: 40px;
+  font-size: 40;
 }
 
 #p1 {
@@ -35,35 +36,105 @@ body {
   position: relative; 
   color:white;
   text-align: right;
-  font-family: "Helvetica Bold";
+  font-family: "Candara";
   top: 50px;
-  
-
-  
+  font-size: 20;
   text-align: left;
-
+  z-index: -1;
   margin-top: 50px;
   margin-left: 50px; 
   margin-right: 300px;
 }
 
 .navbardiv{
-  position: relative;
-  
-  font-family: Helvetiva Bold; 
-  margin-top: 10px;
-  margin-right: 20px; 
-
+  position: sticky;
+  top: 0;
+  margin-top: 30px;
+  margin-right: 20px;
 }
 
 #NaviHeader{
   font-size: 20px;
+  font-family: "Candara";
+  
 }
 
 #navdata{
   color: blue;
+  font-family: "Candara";
+  
 }
 #navdata:hover{
   color: black; 
+}
+
+#navibar{
+  font-size: 20; 
+}
+
+.textcontainer{
+  width: 1500px;
+}
+
+
+#images{
+  position: relative;
+  left:50px;
+  top: 43px;
+  z-index: -2; 
+  
+ 
+}
+
+.next{
+  float:left; 
+  width: 20px; 
+  height: 20px;
+  position: fixed;
+  font-size: 20px; 
+ 
+  color: white;
+  top: 650px; 
+  right: 60px;
+}
+
+#nextimg{
+  float:left;
+  width: 50px;
+  height:50px;
+  opacity: 50%;
+  
+}
+
+#nextimg:hover{
+  opacity: 100%;
+}
+
+#specnavdata{
+  text-align: left;
+  font-family: "Candara"
+}
+
+.headerdiv{
+  background-color: black;
+  left: 50vh; 
+  right: 50vh;
+  top:-100px;
+  margin: 10px;
+  z-index: 3; 
+  
+}
+
+.introhead{
+  text-align: center; 
+  color: whitesmoke;
+  padding: 10px;
+  font-family: "Candara";
+
+  margin-top: 40px;
+  font-size: 40;text-align: center; 
+  color: white;
+  margin-top: 40px;
+  font-size: 40;
 }
 
