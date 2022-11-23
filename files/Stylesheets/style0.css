@@ -139,4 +139,35 @@ body {
   font-size: 40;
 }
 
+.sources{
+  position: relative;
+  top: 50px;
+}
+
+#source{
+  
+  position: relative; 
+  color:white;
+  text-align: right;
+  font-family: "Candara";
+  top: 50px;
+  font-size: 20;
+  text-align: left;
+  z-index: -1;
+  
+  left: 10px;
+}
+
+.sourcecont{
+  position: relative;
+  
+  width: 1000px;
+  left: 35px;
+}
+
+.video{
+  position: relative;
+  left: 60px;
+}
+
 

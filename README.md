@@ -27,8 +27,9 @@ This page is about Voyager 1, and all the other probes deployed to explore inter
 *5th Web Page* - Modern Space Technology:
 More spacecraft, but modern ones this time. Plans that are in the workings, private companies with plans to take civilians to space, and much more.
 
-Link to Google Drive file: 
-https://drive.google.com/file/d/1M2lAIMjnSVj6gENWthOgLPMTsbSEAHmX/view?usp=sharing
+Link to Google Drive folder:
+https://drive.google.com/drive/folders/1WqXwTftSHr2UNlhshgXomAutfnC_dDNJ?usp=sharing
+
 
 IMPORTANT- Project Webview link: https://sr18ocampocs3project.theoalt.repl.co/
 ****
