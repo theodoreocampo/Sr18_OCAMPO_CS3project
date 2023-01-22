@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  scroll-behavior: smooth;
 }
 
 .button {
@@ -10,6 +11,7 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  
   font-size: 10px;
   transition-duration: 0.1s;
 }
@@ -24,12 +26,23 @@ body {
 #header {
   text-align: center; 
   color: whitesmoke;
-  
+  transition: all 1s;
   font-family: "Candara";
 
   margin-top: 40px;
   font-size: 40;
 }
+
+.rule{
+  border-radius: 20px;
+  color: white; 
+  z-index: 1; 
+  margin: 0 auto;
+ 
+  position: relative; 
+}
+
+
 
 #p1 {
 
@@ -51,29 +64,44 @@ body {
   top: 0;
   margin-top: 30px;
   margin-right: 20px;
+  z-index: 5; 
+  width: 100%;
 }
 
 #NaviHeader{
   font-size: 20px;
-  font-family: "Candara";
-  
+  font-family: "Candara"; 
+}
+
+.hr{
+  position: relative; 
+  top: 40px;
+  width: 203vh;
+  border-width: 0.01px;
+  background-color: #080808;
 }
 
 #navdata{
-  color: blue;
+  color: black;
   font-family: "Candara";
-  
+  background-color: white;
+  transition: all 0.75s;
 }
 #navdata:hover{
-  color: black; 
+  color: white; 
+  background-color: black;
+  transition: all 0.75s;
+
 }
 
 #navibar{
   font-size: 20; 
+ 
+ 
 }
 
 .textcontainer{
-  width: 97%;
+  width: 100%;
 }
 
 
@@ -83,26 +111,33 @@ body {
   top: 43px;
   z-index: -2; 
   
- 
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 .next{
-  float:left; 
-  width: 20px; 
-  height: 20px;
+  scroll-behavior: smooth;
+  float:right; 
+  width: 30px; 
+  height: 30px;
   position: fixed;
   font-size: 20px; 
- 
+  margin-right: 20px;
   color: white;
-  top: 650px; 
-  right: 60px;
+  
+  top: 20px;
+  right: 20px;
+  z-index: 10;
 }
 
 #nextimg{
   float:left;
   width: 50px;
   height:50px;
-  opacity: 50%;
+  opacity: 95%;
+  margin-right: 100px;
   
 }
 
@@ -112,7 +147,7 @@ body {
 
 #specnavdata{
   text-align: left;
-  font-family: "Candara"
+  font-family: "Candara";
 }
 
 .headerdiv{
@@ -120,14 +155,19 @@ body {
   left: 50vh; 
   right: 50vh;
   top:-100px;
-  margin: 10px;
+  text-align: left;
   z-index: 3; 
   opacity: 90%;
+  width: 100%;
   
 }
 
+.navibardiv{
+  margin-right: 20px;
+}
+
 .introhead{
-  text-align: center; 
+  text-align: left; 
   color: whitesmoke;
   padding: 10px;
   font-family: "Candara";
@@ -167,7 +207,80 @@ body {
 
 .video{
   position: relative;
-  left: 60px;
+  left: 40px;
+  top: 50px;
+}
+
+.introhead{
+  text-align: center; 
+  
+}
+
+.specimg{
+  top: 10px;
+}
+
+.nav{
+  border-radius: 20px;
 }
 
 
+
+
+
+
+
+.sprite_twit {
+	background: url('../images/css_sprites-removebg-preview.png') no-repeat -404px -326px;
+	width: 45px;
+	height: 49px;
+  
+
+  
+}
+
+.sprite_twit:hover{
+  background: url('../images/css_sprites-removebg-preview.png') no-repeat -404px -26px;
+	width: 50px;
+	height: 49px;
+}
+
+
+.sprite_facebook {
+	background: url('../images/css_sprites-removebg-preview.png') no-repeat -44px -326px;
+	width: 50px;
+	height: 49px;
+}
+
+.sprite_facebook:hover{
+  background: url('../images/css_sprites-removebg-preview.png') no-repeat -44px -26px;
+	width: 50px;
+	height: 49px;
+}
+
+.sprite_youtube {
+	background: url('../images/css_sprites-removebg-preview.png') no-repeat -344px -326px;
+	width: 50px;
+	height: 49px;
+}
+
+.sprite_youtube:hover{
+  background: url('../images/css_sprites-removebg-preview.png') no-repeat -344px -26px;
+	width: 50px;
+	height: 49px;
+}
+
+
+.spritediv{
+  position: sticky; 
+  display: block;
+  top: 600px;
+  float: right;
+  z-index: 100000000000000000000000000000000;
+  margin-right: -270px;
+}
+
+
+.navdiv {
+  border-radius: 50px;
+}
